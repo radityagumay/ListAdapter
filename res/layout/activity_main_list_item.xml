@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#adadad">
+    
+    <TextView 
+        android:id="@+id/tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10019"/>
+   
+    <TextView 
+    	android:id="@+id/tv_username"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/tv_id"
+    	android:text="fikri"
+    	android:textSize="18dp"/>
+
+    <TextView 
+    	android:id="@+id/tv_address"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="benhil"
+    	android:layout_below="@+id/tv_username"
+    	android:singleLine="true"
+    	android:textSize="20dp"/>
+    </LinearLayout>
+    
+</RelativeLayout>
